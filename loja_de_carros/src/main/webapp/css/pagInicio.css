@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+    --cor-footer:black;
+    --color-azul3: #0455f8;
+    --cor-fundo: hsl(221, 100%, 41%);
+    --cor-hover: hsl(0, 0%, 100%);
+    --cor-link: hsl(0, 0%, 100%);
+}
+
+/* corpo da pag */
+body {
+	background-color: rgb(139, 241, 157);
+}
+
+
+/* title */
+h1 {
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+  font-family:monospace;
+  text-align: center;
+}
+
+
+/* formulario de login */
+form{
+	font-family: monospace;
+	margin-top: 50px;
+	margin-left: 40%;
+	margin-right: 40%;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+
+/* botao de logar */
+.Sign-in button{
+	font-family:monospace;
+	margin-left: 30%;
+}
+.Sign-in button:hover {
+	background-color: silver;
+	color: black;
+}
+
+
+/* link do botao usando id*/
+#link_cadastra{
+	font-family:monospace;
+	cursor: pointer;
+	margin-left: 46%;
+	margin-top: 25px;
+}
+#link_cadastra:hover{
+	color: black;
+}
+
+.checkbox{
+	margin-top: 15px;
+}
+
+

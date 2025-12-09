@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+} 
+
+:root {
+    --cor-footer:black;
+    --color-azul3: #0455f8;
+    --cor-fundo: hsl(221, 100%, 41%);
+    --cor-hover: hsl(0, 0%, 100%);
+    --cor-link: hsl(0, 0%, 100%);
+}
+
+.cabecalho{
+	display: flex;
+	justify-content: space-between;
+	background: gray;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.cabecalho #saudacao{
+	color: white;
+	font-family: sans-serif;
+}
+
+#btn_cadastra{
+	text-align: center;
+}
+
+
+
+
